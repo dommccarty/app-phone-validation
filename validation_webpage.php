@@ -10,7 +10,6 @@ if (!isset($validation_code)) {
 
 require("os_and_version.php");
 
-$ip = $_SERVER["REMOTE_ADDR"];
 $user_agent = $_SERVER["HTTP_USER_AGENT"];
 
 $ua_data = os_and_version($user_agent);
