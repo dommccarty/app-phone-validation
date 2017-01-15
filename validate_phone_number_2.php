@@ -1,6 +1,7 @@
 <?php
 
-$data = $_POST;
+//you will probably want to do some other security measures as well :D
+if (!(isset($_POST) && count($_POST))) exit();
 
 $user_id = $_POST["user_id"];
 $validation_code = $_POST["validation_code"];
