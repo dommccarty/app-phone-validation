@@ -7,7 +7,7 @@ making the code.
 
 we will use all of them!
 
-start with the prime of your choice. we use 413158523
+use the prime of your choice. we use 413158523
 
 store the counter somewhere.
 */
