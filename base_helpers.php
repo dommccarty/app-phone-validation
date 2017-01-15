@@ -47,6 +47,11 @@ function convert_to_base_helper($int, $new_base, $arr)
     return convert_to_base_helper($remainder, $new_base, $arr);
 }
 
+/**
+ * Returns an array of pairs representing the expansion of $int with respect to $new_base,
+ * where the left entry is the exponent and the right entry is the coefficient.
+ */ 
+
 function convert_to_base_array($int, $new_base)
 {
     
