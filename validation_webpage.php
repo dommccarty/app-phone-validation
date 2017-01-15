@@ -17,7 +17,7 @@ $ua_data = os_and_version($user_agent);
 //you may want to drop a cookie first ...
 
 if ($ua_data["os"] == "android") {
-    //your app needs to be setup to handle this kind of intent.
+    //see Android docs for how to setup app urls.
     header("Location: intent://stuff?validation_code={$validation_code}#Intent;package=YOUR_PACKAGE_NAME;scheme=YOUR_SCHEME;launchFlags=268435456;end;");
 } else {
     header("Location: example.com");
