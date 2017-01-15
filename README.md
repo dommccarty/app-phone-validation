@@ -1,6 +1,6 @@
 # app-phone-validation
 
-This library shows you how to use Twilio to validate a phone number that a user enters into your app, for both iPhone and Android.
+This library lets you use Twilio to validate phone numbers that users enter into your app, for both iPhone and Android.
 
 Your app first posts to ```validate_phone_number_1.php```, which sets everything up including sending the SMS. Then after your user opens the app by clicking on the validation link, post to ```validate_phone_number_2.php```.
 
