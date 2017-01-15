@@ -10,8 +10,8 @@ $user_id = $_POST["user_id"];
 $user_already_validated = false;
 $number_already_taken = false;
 
-//TO-DO: check if another user already has this number, or if this user has alredy validated it.
-//be sure to sanitize the data.
+//TO-DO: check if another user already has this number, or if this user has already validated it.
+//Be sure to sanitize the data.
 
 if ($user_already_validated) {
 	
