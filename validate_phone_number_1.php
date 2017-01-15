@@ -5,6 +5,7 @@ require("cleanup_phone_number.php");
 $data = $_POST;
 
 $phone_number = cleanup_phone_number($data["phone_number"]);
+$user_id = $_POST["user_id"];
 
 $user_already_validated = false;
 $number_already_taken = false;
